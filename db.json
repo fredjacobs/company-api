@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "test_user",
+      "email": "test@testing.com",
+      "role": "member"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "customer": {
+        "name": "John Doe",
+        "address": "Straight Street",
+        "email": "john@gmail.com",
+        "phone": "555 555 5555"
+      },
+      "short_description": "Floor Installation",
+      "long_description": "Work and installation details with extensive description.",
+      "stage": "Quote",
+      "notes": "Notes Go Here",
+      "test": "hi"
+    },
+    {
+      "id": 2,
+      "customer": {
+        "name": "Jane Doe",
+        "address": "Plain Street",
+        "email": "jane@gmail.com",
+        "phone": "555 555 2222"
+      },
+      "short_description": "Roof Repair",
+      "long_description": "Work and installation details with extensive description.",
+      "stage": "Invoicing",
+      "notes": "Notes Go Here",
+      "test": "hi"
+    }
+  ]
+}
